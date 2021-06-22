@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Player</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+      <div class="wrapper">
+        <div class="player">
+            <video src="./video/video.mp4" class="video"></video>
+            <div class="controls">
+                <div class="controls__play mr-20"><img src="./icons/play.svg" alt="play" class="play__btn  controls__icon"></div>
+                <div class="controls__stop"><img src="./icons/stop.svg" alt="stop" class="controls__icon"></div>
+                <div class="controls__progress">
+                    <input type="range" class="progress">
+                </div>
+                <div class="controls__time">00:00</div>
+            </div>
+        </div>
+      </div>
+
+      <script src="./main.js"></script>
+  </body>
+</html>
