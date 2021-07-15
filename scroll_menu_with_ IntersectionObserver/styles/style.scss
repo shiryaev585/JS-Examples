@@ -12,14 +12,14 @@
     background: #123a4e;
     &-list {
         display: flex;
-        justify-content: flex-start;
+        justify-content: flex-end;
         padding: 0;
         margin: 0;
         list-style: none;
         &__item {
             &-link {
                 display: block;
-                padding: 2rem;
+                padding: 1rem;
                 color: #fff;
                 text-decoration: none;
                 &--active,
@@ -39,22 +39,22 @@
     color: #fff;
     &-1 {
         height: 100vh;
-        color: #123a4e;
-        background: #f6f0f0;
+        color: #15455e;
+        background: #e7eafa;
     }
     &-2 {
         height: 80vh;
-        background: #a3899b;
+        background: #a7879d;
     }
     &-3 {
         height: 60vh;
-        background: #979fbf;
+        background: #9ba2bd;
     }
     &-4 {
         height: 60vh;
-        background: #c35283;
+        background: #c5477e;
     }
-    &-2 {
+    &-5 {
         height: 80vh;
         background: #123a4e;
     }
